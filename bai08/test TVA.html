@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Toan Van Anh</title>
+       
+    </head>
+
+    <body>
+        <form>
+            <h2>Nhập lần lượt điểm toán văn anh</h2>
+            <label for="name">Toán:</label>
+            <input type="number" id="toan" required>
+
+            <label for="name">Văn:</label>
+            <input type="number" id="van" required>
+            
+            <label for="name">Anh:</label>
+            <input type="number" id="anh" required>
+            <input type="button" value="Trung bình" onclick="tinhDiem()"/>
+            <!-- <button onclick="tinhDiem()">Trung bình</button> -->
+            <h3>Kết quả:</h3>
+            <div id="ketQua"></div>
+        </form>
+            
+        <script>
+             function tinhDiem() {
+                var T = parseFloat(document.getElementById('toan').value);
+                var V = parseFloat(document.getElementById('van').value);
+                var A = parseFloat(document.getElementById('anh').value);
+                var Tong = (T + V + A)/3;
+                var ketLuan;
+                    if (Tong >= 90) {
+                        ketLuan = 'Loại A';
+                    }
+                    else if (Tong >= 75) {
+                        ketLuan = 'Loại B';
+                    }
+                    else if (Tong >= 65) {
+                        ketLuan = 'Loại C';
+                    }
+                    else if (Tong >= 50) {
+                        ketLuan = 'Loại D';
+                    }
+                    else {
+                        ketLuan = 'Loại E';
+                    }
+
+                document.getElementById('ketQua').innerHTML = "Xếp loại: " + ketLuan;
+
+                }
+        </script>
+    </body>
+</html>
