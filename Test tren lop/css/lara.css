@@ -1,0 +1,80 @@
+header, body, nav, figure, figcaption, footer, table {
+    display: block;
+} 
+
+
+div.logo {
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+}
+
+body {
+    background-color: #2A2829;
+}
+
+body header nav {
+    float: right;
+    font-size: 150%;
+    padding-right: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 12px;
+}
+h1 {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+div.left {
+    float: left;
+    margin: 0px 50px 10px 10px;
+    width: 200px;
+    height: 600px;
+}
+div.left li {
+    padding-bottom: 20px;
+    display: inline-flex;
+    font-size: 18;
+}
+.artical {
+    width: 1000px;
+    float: left;
+}
+
+figcaption, h2, th {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+table {
+    clear: both;
+    padding-right: 30px;
+    padding-left: 500px;
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    text-align: left;
+}
+table tr {
+    margin-right: 30px;
+}
+
+table tr td, table tr th {
+    padding: 7px;
+    font-size: 18;
+}
+table tr a {
+    padding: 10px 15px 10px 10px;
+
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ff5500;
+}

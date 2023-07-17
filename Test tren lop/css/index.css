@@ -1,0 +1,104 @@
+header {
+    background-image: url(../images/1123013.jpg) ;
+    color: white;
+    padding-left: 25px;
+    padding-top: 30px;
+    height: 150px;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.nav-index {
+    position: sticky;
+    background-color: #1e1c1c;
+    padding: 3px;
+    top: 0;
+    vertical-align: middle;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+h2 {
+    text-align: center;
+}
+li::marker {
+    content: none;
+}
+section {
+    padding: 10px 15% 10px 15%;
+}
+
+section h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+section li {
+    padding-left: 20px;
+    padding-top: 4px;
+    font-size: 20px;
+}
+
+div.g-col-6 {
+    margin-bottom: 20px;
+    
+}
+
+.bd-example-row [class^="col"],.bd-example-cols [class^="col"]>*,.bd-example-cssgrid [class*="grid"]>* {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #1e1c1c;
+}
+
+.g-col-6 h3, .g-col-6 p {
+    color: #fff;
+}
+
+.g-col-6 img {
+    width: 250px;
+    height: 250px;
+}
+
+.form-group {
+    max-width: 100%;
+    color: #fff;
+    padding: 5px 10% 5px 10%;
+}
+
+.btn {
+    margin-left: 10%;
+}
+
+.g-col-4 p, .g-col-8 p {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10%;
+}
+
+#thong_bao {
+    color: #fff;
+    padding-left: 10%;
+}
+
+.contact_me li {
+    display: inline;
+    padding-left: 10%;
+}
+
+

@@ -1,0 +1,135 @@
+header, section, footer, nav, article, figure, figcaption{
+    display: block;
+}
+
+body {
+        color: #666666;
+        background-color: #ff5a6081;
+        background-position: center;
+        font-family: Georgia, Times, serif;
+        margin: 0px;
+        padding: 0px;     
+        }
+
+        header {
+            height: 200px;
+            background-color: #f9f8f6;
+        }
+
+        header img {
+            width: 400px;
+            max-width: 20%;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 35px;
+            margin: 0px;
+        }
+
+        nav, footer {
+            clear: both;
+            color: white;
+            background-color: #ff5a5f;
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a {
+            color: white;
+        }
+
+        nav li a:hover, nav li a.current {
+            color: #000000;
+        }
+
+        main {
+            width: auto;
+            margin: 10px 10% 10px;
+            background-color: #f9f8f6 ;
+        }
+        
+        .table {
+            width: auto;
+            margin: 10px 10px 0 10px;
+            border-collapse: separate;
+        }
+        
+        table {
+            width: auto;
+            text-indent: 0;
+            margin-bottom: 30px;
+            margin-top: 50px;
+            border-bottom: 1px solid #caacad;
+        }
+
+        tr {
+            margin-bottom: 10px;
+        }
+        
+        td {
+            vertical-align: top;
+        }
+        
+        p {
+            color: #000000;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-block: 0;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #ff5a5f;
+            margin-block: 0;
+            font-size: 1em;
+            text-decoration: bold;
+            padding: 10px 0px 0px 20px;
+            width: auto;
+            max-width: 200px;
+        }
+
+        h3 {
+            color: #ff5a5f;
+            font-size: 40px;
+            padding-top: 30px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+            border-bottom: 0.6rem solid #ff5a5f;
+        }
+        
+        div img {
+            max-width: 270px;
+        }
+
+        a {
+            color: #ff5a5f;
+            text-decoration: none;
+        }
+
+        a.name:hover {
+            color:#e5060d;
+        }
+   
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+
+
+
+        
+
+        
