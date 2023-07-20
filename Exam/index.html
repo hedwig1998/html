@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-cssgrid">
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <h1>Tuyển sinh lập trình viên full-stack 2099</h1>
+        <p>Ngành IT Việt Nam hiện nay ở đầu của sự phát triển. Có thể nói IT là vua của các nghề. Vừa có tiền, có quyền. Vừa kiếm được nhiều $ lại được xã hội trọng vọng.<br/>
+            Thằng em mình học bách khoa cơ khí, sinh năm 96. Tự mày mò học code rồi đi làm remote cho công ty Mỹ 2 năm nay. Mỗi tối online 3-4 giờ là xong việc. Lương tháng 3k6. 
+            Nhưng thu nhập chính vẫn là từ nhận các project bên ngoài làm thêm. Tuần làm 2,3 cái nhẹ nhàng 9,10k tiền tươi thóc thật không phải đóng thuế. Làm gần được 3 năm mà nhà xe nó đã mua đủ cả. Nghĩ mà thèm.</p>
+    </header>
+    <hr>
+    <section>
+        <form id="contact">
+            <h2>Đăng ký thông tin người dùng</h2>
+            <div class="form-group">
+                <label for="name">Họ và tên:</label>
+                <span style="color: red;">*</span>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <span style="color: red;">*</span>
+                <input type="text" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <span style="color: red;">*</span>
+                <input type="text" name="phone" id="phone" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="giới tính">Giới tính:</label>
+                <input type="radio" name="sex" id="sex" value="male" required> Nam
+                <input type="radio" name="sex" id="sex" value="female" required> Nữ
+            </div>
+            <div class="form-group">
+                <label for="so_thich">Sở thích:</label>
+                <input type="checkbox" name="option" value="option1" > Thể thao
+                <input type="checkbox" name="option" value="option2" > Phim ảnh
+                <input type="checkbox" name="option" value="option3" > Đọc sách
+                <input type="checkbox" name="option" value="option4" > Âm nhạc
+                <input type="checkbox" name="option" value="option5" > Khác
+            </div>
+            <div class="form-group">
+                <label for="message">Giới thiệu bản thân:</label>
+                <textarea name="introduce" id="introduce" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi</button>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <section class="chao-mung">
+            <div id="thong_bao"></div>
+        </section>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

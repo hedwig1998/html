@@ -1,0 +1,19 @@
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.form-group {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+hr {
+    border-width: 3px;
+}
